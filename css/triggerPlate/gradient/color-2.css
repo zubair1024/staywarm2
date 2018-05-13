@@ -99,9 +99,9 @@ section#features .lnr {
   background-image: -ms-linear-gradient(90deg, #ff4b41 0%, #c5281d 100%);
 }
 section.bg-gradient-horizontal {
-  background-image: -moz-linear-gradient(0deg, #ff4b41 0%, #c5281d 100%);
-  background-image: -webkit-linear-gradient(0deg, #ff4b41 0%, #c5281d 100%);
-  background-image: -ms-linear-gradient(0deg, #ff4b41 0%, #c5281d 100%);
+  background-image: -moz-linear-gradient(0deg, #000000 0%, #750000 100%);
+  background-image: -webkit-linear-gradient(0deg, #000000 0%, #750000 100%);
+  background-image: -ms-linear-gradient(0deg, #000000 0%, #750000 100%);
 }
 section#screenshots .filter-btn.active {
   background-image: -moz-linear-gradient(0deg, #ff4b41 0%, #c5281d 100%);
