@@ -71,7 +71,7 @@ scrollup
   width: 50px;
   padding: 12px;
   border-radius: 100%;
-  background:#00c6ff;
+  background:#f25b54;
 }
 @media (min-width: 992px) {
   .scrollup {
@@ -93,7 +93,7 @@ a.scrollup i:focus, a.scrollup i:hover,a.scrollup i:active{
 loader
 ----------------------------------*/
 .loading{
-    background-color: #4776e6;
+    background-color: #a94442;
     height: 100%;
     width: 100%;
     position: fixed;
