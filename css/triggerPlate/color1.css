@@ -1,0 +1,176 @@
+/***********************
+Header
+***********************/
+header {
+    position: relative;
+    padding-top: 130px;
+    background-color: #4776e6;
+    background-image: none;
+    overflow: hidden;
+}
+header a.btn-white,header a.btn-transparent:hover,nav.bg-solid .navbar-collapse .navbar-right > li > a:focus {
+    color: #4776e6;
+}
+nav .navbar-header .navbar-brand .logo-blue {
+  visibility: hidden;
+}
+
+nav.bg-solid .navbar-header .navbar-brand {
+  background-image: url(../../img/nav/logo-faded-solidblue.png)!important;
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+}
+@media (max-width: 767px) {
+    nav.bg-solid .navbar-header .navbar-brand {
+      background-position: 15px 7.5px;
+    }
+}
+
+nav.bg-solid .navbar-header .navbar-brand img {
+  visibility: hidden;
+}
+nav.bg-solid .navbar-collapse .navbar-right > li.active > a {
+    border-bottom: 2px solid #4776e6;
+}
+nav.bg-solid .navbar-collapse .navbar-right > li > a:hover {
+    border-bottom: 2px solid #4776e6;
+}
+nav .btn-getnow:hover {
+  color: #4776e6;
+}
+nav.bg-solid .navbar-collapse .navbar-right > li a,nav.bg-solid .btn-getnow{
+    color:#4776e6;
+}
+nav.bg-solid .btn-getnow {
+    border: 2px solid #4776e6;
+}
+nav.bg-solid .btn-getnow:hover {
+    background-color: #4776e6;
+    background-image: none;
+}
+/*==== slider css video color bg====*/
+.home-video:before{
+    background: #4776e6;
+}
+.cb-slideshow:before{
+    background: #4776e6;
+    opacity: 0.70;
+}
+/***********************
+overView
+***********************/
+.sec-overview [class^="col-"] .wrapper-img > .overview-img.lnr, .sec-overview [class^="col-"] .wrapper-img > .overview-img.fa {
+  color: #4776e6;
+}
+.sec-overview [class^="col-"] hr,.sec-overview [class^="col-"]:hover hr {
+  background-color:#4776e6;
+  background-image: none;  
+}
+/***********************
+all vertical sections 
+***********************/
+section.bg-white .hr, section.bg-grey .hr {
+  background-image: url("../../img/hr.png");
+}
+section.bg-gradient-vertical {
+    background-color: #4776e6;
+    background-image: none;
+}
+section#features .lnr {
+    background-color: #4776e6;
+    color:#4776e6;
+    background-image: none;
+}
+.sec-screenshots .filter-btns a:hover{
+    color:#4776e6!important;
+}
+.sec-screenshots .screenshots .screenshot::before,
+section.bg-gradient-horizontal,
+section#screenshots .filter-btn.active,
+.sec-screenshots .screenshots .owl-controls .owl-pagination .owl-page{
+   background-color: #4776e6;
+   background-image: none;
+}
+.sec-screenshots .filter-btn.active{
+    color: #4776e6!important;
+}
+/************
+Testimonial
+*************/
+.sec-testimonial .owl-controls .owl-pagination .owl-page {
+   background-color: #4776e6;
+   background-image: none;
+}
+.sec-testimonial .media .media-body .fa-quote-left,.sec-testimonial .media .media-body i[class*="fa-star"] {
+  color: #4776e6;
+}
+/************
+Team
+*************/
+.sec-team .wrapper a i {
+    background-color: #4776e6;
+    background-image: none;
+}
+
+/************
+pricing
+*************/
+.sec-pricing .highlighted[class^="col-"] .wrapper::after {
+    background-color: #4776e6;
+    background-image: none;
+}
+.sec-pricing .wrapper h3,.sec-pricing .wrapper h1{
+    color: #4776e6!important;
+}
+.sec-pricing [class^="col-"] .wrapper a {
+   background-color: #4776e6;
+   background-image: none;
+    color:#4776e6;
+}
+.sec-pricing .highlighted[class^="col-"] .wrapper a,
+.sec-pricing [class^="col-"] .wrapper .pricing-img,
+.sec-pricing .highlighted[class^="col-"] .wrapper .pricing-img {
+  color: #4776e6;
+}
+/************
+Latest post
+*************/
+.sec-blog .thumbnail-blog p + a, .sec-blog-list .thumbnail-blog p + a {
+    color: #4776e6;
+}
+.sec-blog .container > a, .sec-blog-list .container > a {
+   background-color: #4776e6;
+   background-image: none;
+   color: #4776e6; 
+}
+.sec-blog-list .pagination a::after,.sec-blog-post .blog-submit form button {
+   background-color: #4776e6;
+   background-image: none;
+}
+/************
+Get apps
+*************/
+.sec-get-app a::after {
+   background-color: #4776e6;
+   background-image: none;
+}
+/************
+Section contact
+*************/
+.sec-contact,.sec-contact form {
+    background-color: #4776e6;
+    background-image: none;
+}
+.sec-contact .contact .contact-info h5,.sec-contact form button {
+    color: #4776e6;
+}
+/************
+footer
+*************/
+footer {
+    background-color: #4776e6;
+    position: relative;
+}
+footer .subscription i,footer .subscription button{
+    color: #4776e6;
+}
