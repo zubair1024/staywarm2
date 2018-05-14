@@ -59,4 +59,4 @@ app.use(bodyParser.urlencoded({ extended: true })); // support encoded bodies
 app.use(express.static(__dirname + '/public', { maxAge: 31557600 }));
 
 
-app.listen(81, () => console.log('Example app listening on port 80!'))
+app.listen(80, () => console.log('Example app listening on port 80!'))
