@@ -1726,6 +1726,10 @@ Testimonial
   padding: 10px 0 40px 0;
 }
 
+.hr-black{
+  background-image: url(../img/hr-black.png) !important;
+}
+
 /*--------------------------------
 End Testimonial
 ----------------------------------*/
