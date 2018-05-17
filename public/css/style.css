@@ -1501,7 +1501,7 @@ Video
     }
 }
 .sec-video .bg-img {
-  background-image: url(../img/video/bg.jpg);
+  background-image: url(../img/video/bg.png);
 }
 
 .sec-video .wrapper-video {
@@ -2083,7 +2083,8 @@ FAQ
 .sec-faq {
   overflow: hidden;
   text-align: left;
-  padding-top: 234px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .sec-faq .hr {
@@ -2100,9 +2101,12 @@ FAQ
 }
 
 .sec-faq .row .wrapper-img img {
-  right: -359px;
-  position: absolute;
-  top: -231px;
+  /* right: -359px; */
+  /* position: absolute; */
+  /* top: -231px; */
+  max-width: 600px;
+  box-shadow: 0px 0px 16px #000;
+  border-radius: 10px;
 }
 
 .sec-faq .row .faq-inner .panel-group {
@@ -4459,4 +4463,14 @@ Styles for smaller devices
     right: 20px;
     bottom: 30px;
   }
+}
+
+/* Hacks */
+#howitworks, #features{
+  padding: 30px 0;
+}
+
+#video{
+  background-image: -webkit-linear-gradient(0deg, #0000006b 0%, #750000b5 100%);
+  background-color: ;
 }
