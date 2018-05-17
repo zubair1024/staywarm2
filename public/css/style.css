@@ -1486,7 +1486,7 @@ Video
   display: block;
   background-color: white;
   min-height: 250px;
-  width: 2000px;
+  /* width: 2000px; */
   -webkit-transform: rotate(-6.5deg);
   -webkit-transform-origin: 0 0 0;
   -moz-transform: rotate(-6.5deg);
