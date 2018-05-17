@@ -594,7 +594,11 @@ section .subheader {
   line-height: 28px;
   max-width: 660px;
   padding: 0 15px;
-  margin: 19px auto 103px;
+  margin: 19px auto 20px;
+}
+
+.about-us-team-img{ 
+  padding-top: 25px;
 }
 
 footer .bg-img,
@@ -1716,6 +1720,10 @@ Testimonial
 .sec-testimonial.solid .owl-controls .owl-pagination .owl-page {
   background-image: none;
   background-color: #725ce6;
+}
+
+.trustpilot-widget{
+  padding: 10px 0 40px 0;
 }
 
 /*--------------------------------
@@ -3480,7 +3488,8 @@ Styles for smaller devices
   }
 
   .sec-testimonial {
-    padding-bottom: 160px;
+    /* padding-bottom: 35px; */
+    padding: 35px 0 35px 0;
   }
 
   .sec-get-app .get-app-mockup {

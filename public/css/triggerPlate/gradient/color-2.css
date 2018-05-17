@@ -118,9 +118,9 @@ section#screenshots .filter-btn.active {
 Testimonial
 *************/
 .sec-testimonial .owl-controls .owl-pagination .owl-page {
-  background-image: -moz-linear-gradient(0deg, #ff4b41 0%, #c5281d 100%);
-  background-image: -ms-linear-gradient(0deg, #ff4b41 0%, #c5281d 100%);
-  background-image: -webkit-linear-gradient(0deg, #ff4b41 0%, #c5281d 100%);
+  background-image: -moz-linear-gradient(0deg, #000000 0%, #000000 100%);
+  background-image: -ms-linear-gradient(0deg, #000000 0%, #000000 100%);
+  background-image: -webkit-linear-gradient(0deg, #000000 0%, #000000 100%);
 }
 .sec-testimonial .media .media-body .fa-quote-left,.sec-testimonial .media .media-body i[class*="fa-star"] {
   color: #009060;
