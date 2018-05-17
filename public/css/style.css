@@ -647,7 +647,7 @@ section.bg-grey .subheader {
 }
 
 section.bg-grey {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 
 section.bg-gradient-horizontal {
@@ -683,8 +683,8 @@ Overview
 ----------------------------------*/
 
 .sec-overview {
-  padding-top: 100px;
-  padding-bottom: 160px;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .sec-overview [class^="col-"] .wrapper {
@@ -831,7 +831,7 @@ Steps
   line-height: 43px;
   font-weight: 700;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.6);
+  /* color: rgba(255, 255, 255, 0.6); */
 }
 
 .sec-steps .row.row-2 [class^="col-"] .step-desc h4 {
@@ -1096,6 +1096,9 @@ header.image-home:before{
   color: #4c4b4b;
   background-color: white;
   border-color: white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .slider-caption .col-header-txt a.btn-transparent{
   border-color: white;
@@ -2653,21 +2656,25 @@ Contact
   box-shadow: 0 5px 25px 0 rgba(242, 101, 34, 0.5);
 }
 
-.sec-contact form {
+.sec-contact form, .quote_form {
   height: 100%;
-  background-color: #3059be;
+  background-color: #ff4b41d1;
   -webkit-box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.3);
   padding: 39px 30px;
+  border-radius: 10px;
 }
 
-.sec-contact form .form-group {
+.sec-contact form .form-group , .quote_form .form-group {
   margin-bottom: 20px;
 }
 
 .sec-contact form .form-group input,
-.sec-contact form .form-group textarea {
+.sec-contact form .form-group textarea,
+.quote_form .form-group input,
+.quote_form .form-group textarea
+{
   background-color: rgba(255, 255, 255, 0.1);
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -2680,37 +2687,65 @@ Contact
   height: 40px;
 }
 
+.sec-contact form .form-group input::placeholder,
+.sec-contact form .form-group textarea::placeholder,
+.quote_form .form-group input::placeholder,
+.quote_form .form-group textarea::placeholder
+{
+  color: white;
+  opacity: 0.5;
+}
+
 .sec-contact form .form-group input::-webkit-input-placeholder,
-.sec-contact form .form-group textarea::-webkit-input-placeholder {
+.sec-contact form .form-group textarea::-webkit-input-placeholder 
+.quote_form .form-group input::-webkit-input-placeholder,
+.quote_form .form-group textarea::-webkit-input-placeholder 
+{
   color: rgba(255, 255, 255, 0.25);
 }
 
 .sec-contact form .form-group input::-moz-placeholder,
-.sec-contact form .form-group textarea::-moz-placeholder {
+.sec-contact form .form-group textarea::-moz-placeholder 
+.quote_form form .form-group input::-moz-placeholder,
+.quote_form form .form-group textarea::-moz-placeholder 
+{
   color: rgba(255, 255, 255, 0.25);
 }
 
 .sec-contact form .form-group input:-ms-input-placeholder,
-.sec-contact form .form-group textarea:-ms-input-placeholder {
+.sec-contact form .form-group textarea:-ms-input-placeholder 
+.quote_form .form-group input:-ms-input-placeholder,
+.quote_form .form-group textarea:-ms-input-placeholder 
+{
   color: rgba(255, 255, 255, 0.25);
 }
 
 .sec-contact form .form-group input:-moz-placeholder,
-.sec-contact form .form-group textarea:-moz-placeholder {
+.sec-contact form .form-group textarea:-moz-placeholder 
+.quote_form .form-group input:-moz-placeholder,
+.quote_form .form-group textarea:-moz-placeholder 
+{
   color: rgba(255, 255, 255, 0.25);
 }
 
-.sec-contact form .form-group textarea {
+.sec-contact form .form-group textarea,
+.quote_form .form-group textarea
+{
   height: 200px;
   resize: none;
 }
 
 .sec-contact form .form-group input.contact_error,
-.sec-contact form .form-group textarea.contact_error {
+.sec-contact form .form-group textarea.contact_error 
+.quote_form .form-group input.contact_error,
+.quote_form .form-group textarea.contact_error 
+{
   border: 1px solid #ff5a00;
 }
 
-.sec-contact form button {
+.sec-contact form button 
+.quote_form button 
+{
   margin-top: 10px;
   height: 40px;
   width: 180px;
@@ -2724,6 +2759,30 @@ Contact
   font-size: 14px;
   color: #3059be;
 }
+
+.slider-caption .col-header-quote a {
+  padding: 15px 0;
+}
+
+
+@media (min-width: 768px){
+  .col-header-quote {
+    width: 32.666667%;
+    right: -70px;
+  }
+}
+
+@media (max-width: 767px){
+.slider-caption .col-header-quote {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32em;
+  }
+}
+
+
+
 
 .sec-contact.solid {
   background-color: #725ce6;
