@@ -489,7 +489,7 @@
     <!-- QUESTIONS  -->
     <section id="questions" class="bg-white">
         <h2 class="sec-title">Questions</h2>
-        <div class="hr"></div>
+        <!-- <div class="hr"></div> -->
         <!-- <div class="middle">
             <label>
                 <input type="radio" name="radio" checked/>
@@ -505,12 +505,14 @@
             </label>
         </div> -->
         <div class="container questions-container">
+            <!-- Question 1 -->
             <div class="question-one">
                 <div class="row">
-                    <div class="col-sm-6">
-
+                    <div class="col-sm-4">
+                        <p class="question-text">What type of heating system do you have?</p>
+                        <p class="question-text question-sub-text">Select the type of boiler you have from the list:</p>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-sm-8">
                         <div class="ans-wrapper">
                             <a onclick="optSelect('one','gas','two',this);">
                                 <img src="img/gas.png">
@@ -528,6 +530,92 @@
                     </div>
                 </div>
             </div>
+            <!-- Question 1 End-->
+            <!-- Question 2 -->
+            <div class="question-two">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="question-text">Do you have a hot water cylinder?</p>
+                        <p class="question-text question-sub-text">A hot water cylinder is used to store your home's hot water and can typically be found in an airing cupboard or the loft. Water cylinders look like large round tanks and are found in homes that have existing 'conventional' or 'system' boilers.</p>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="ans-wrapper">
+                            <a onclick="optSelect('two','yes','three',this);">
+                                <img src="img/water-cylinder-yes.png">
+                            </a>
+                            <a onclick="optSelect('two-sub','no','five',this);">
+                                <img src="img/water-cylinder-no.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 2 End-->
+            <!-- Question 3 -->
+            <div class="question-two">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="question-text">Would you like it removed?</p>
+                        <p class="question-text question-sub-text">Not recommended if you would like to run more than 2 baths and/or mixer showers at the same time.</p>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="ans-wrapper">
+                            <a onclick="optSelect('two-sub','yes','five',this);">
+                                <img src="img/yes.png">
+                            </a>
+                            <a onclick="optSelect('two-sub','no','five',this);">
+                                <img src="img/no.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 3 End-->
+            <!-- Question 4 -->
+            <div class="question-two">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="question-text">How quickly does cold water run from your kitchen tap?</p>
+                        <p class="question-text question-sub-text">How long does it take to fill a pint glass? 5 Seconds is fast, 10 seconds is slow, anything in between is average.</p>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="ans-wrapper">
+                            <a onclick="optSelect('seven-sub-two','slow','seven-sub-two',this);">
+                                <img src="img/tap-slow.png">
+                            </a>
+                            <a onclick="optSelect('seven-sub-two','average','seven-sub-two',this);">
+                                <img src="img/tap-average.png">
+                            </a>
+                            <a onclick="optSelect('seven-sub-two','fast','seven-sub-two',this);">
+                                <img src="img/tap-fast.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 4 End-->
+            <!-- Question 5 -->
+            <div class="question-two">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="question-text">How many bedrooms do you have?</p>
+                    </div>
+                    <div class="col-sm-8">
+                        <div class="ans-wrapper">
+                            <a onclick="optSelect('fifteen','3','sixteen',this);">
+                                <img src="img/bedroom-1-3.png">
+                            </a>
+                            <a onclick="optSelect('fifteen','4','sixteen',this);">
+                                <img src="img/bedroom-4-min.png">
+                            </a>
+                            <a onclick="optSelect('fifteen','5','sixteen',this);">
+                                <img src="img/bedroom-5-or-more.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Question 5 End-->
         </div>
     </section>
     <!-- QUESTIONS END -->

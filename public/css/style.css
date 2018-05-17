@@ -4483,6 +4483,37 @@ Styles for smaller devices
   background-image: -webkit-linear-gradient(0deg, #0000006b 0%, #750000b5 100%);
 }
 
+/* Questions */
+
+.ans-wrapper img{
+  max-width: 140px;
+  width: auto;
+  margin: 0 10px 15px 0;
+}
+
+.question-text{
+  text-align: right;
+}
+
+.ans-wrapper{
+  text-align: left;
+}
+
+.question-text{
+  font-weight: bold;
+}
+
+.question-text.question-sub-text{
+  font-weight: normal;
+}
+
+
+/* Questions End */
+
+
+
+
+/* For Middle */
 .middle {
   width: 100%;
   text-align: center;
